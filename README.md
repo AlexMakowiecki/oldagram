@@ -1,4 +1,4 @@
-# NFT side
+# Oldagram
 ## What is it? 
 "It's a website that showcases popular self-portrait art as Instagram-style posts. This website originated as a project to practice Semantic HTML and the proper use of CSS properties in combination with HTML containers, learned in Module 4 of the Frontend Scrimba Course. However, I liked the project idea, so I dedicated additional time to implement functionality for likes, using Firebase to store them, and utilized the web app manifest to make it look like a mobile app on mobile devices."
 It's also the ninth project, part of the Scrimba Course, that I've uploaded to Github. In the module where this project is, they teach you CSS essential concepts.
@@ -12,7 +12,7 @@ I used HTML, CSS, Javascript, Firebase, App Manifest, and a couple of images
   - **document.querySelector()** to select HTML elements using the same selectors as CSS
   - **scale** CSS property, to scale elements size without disrupting the layout. 
 ## Preview 
-<img style="text-align:center" src="https://github.com/AlexMakowiecki/nft-site/assets/122258496/2cde9755-0fd6-47a4-964e-aa793892ac33" width="500px"/> 
+<img style="text-align:center" src="https://github.com/AlexMakowiecki/oldagram/assets/122258496/e0e3dab3-036d-4e4c-8a6c-833a32062f0a" width="500px"/> 
 
 ## About Scrimba!
 
