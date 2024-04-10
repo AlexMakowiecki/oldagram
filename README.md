@@ -1,14 +1,21 @@
-# co7cc48868ae989b654605fd0
+# NFT side
+## What is it? 
+"It's a website that showcases popular self-portrait art as Instagram-style posts. This website originated as a project to practice Semantic HTML and the proper use of CSS properties in combination with HTML containers, learned in Module 4 of the Frontend Scrimba Course. However, I liked the project idea, so I dedicated additional time to implement functionality for likes, using Firebase to store them, and utilized the web app manifest to make it look like a mobile app on mobile devices."
+It's also the ninth project, part of the Scrimba Course, that I've uploaded to Github. In the module where this project is, they teach you CSS essential concepts.
+## What did I use?
+I used HTML, CSS, Javascript, Firebase, App Manifest, and a couple of images
+## Concepts learned for this project and practiced during it
+  - Firebase **update()** function, to update a small number of properties without replacing the entire element.
+    ```Javascript
+      update( databaseElementRef, { element.property1: newValue })
+    ``` 
+  - **document.querySelector()** to select HTML elements using the same selectors as CSS
+  - **scale** CSS property, to scale elements size without disrupting the layout. 
+## Preview 
+<img style="text-align:center" src="https://github.com/AlexMakowiecki/nft-site/assets/122258496/2cde9755-0fd6-47a4-964e-aa793892ac33" width="500px"/> 
 
-Quick start:
+## About Scrimba!
 
-```
-$ npm install
-$ npm start
-````
-
-Head over to https://vitejs.dev/ to learn more about using vite
-## About Scrimba
 
 At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
 If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
