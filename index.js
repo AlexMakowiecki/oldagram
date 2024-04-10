@@ -22,18 +22,19 @@ function createPost(postInfo){
       `
       <div class="layout-container">
           <div class="post-header">
-              <img class="portrait-image user-image" src="${postInfo.avatar}"></img>
+              <img class="portrait-image user-image" src="${postInfo.avatar}" alt="${postInfo.avatar} profile image"></img>
               <div>
                   <p class="user-name bold"> ${postInfo.name} </p>
                   <p class="user-location"> ${postInfo.location} </p>
               </div>
           </div>
       </div>
-      <img class="post-image" src="${postInfo.post}"/>
+      <img class="post-image" src="${postInfo.post}" alt="a portrait of ${ postInfo.name }"/>
       <div class="layout-container">
           <div class="post-likes">
               <button class="like-button">
-                  <img class="icon-button" src="./images/icon-heart.png">      
+                  <img class="icon-button" src="./images/icon-heart.png" alt="
+                  an unfilled black heart icon">      
               </button>
               <p class="like-count bold">${postInfo.likes}</p>
           </div>
