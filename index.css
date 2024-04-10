@@ -1,0 +1,131 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Source Sans 3", sans-serif;  
+}
+
+header {
+  border-bottom: 1px solid #C6C6C6;
+  background-color: #fff;
+}
+
+main{
+  display:flex;
+  flex-direction: column;
+  gap: 50px;
+}
+img {
+  object-fit:cover;
+}
+
+button {
+  border: none;
+  background: none;
+  padding: 0px;
+}
+
+p{
+  margin: 0;
+}
+
+/* General classes */
+
+.layout-container{
+  padding: 10px 15px;
+}
+
+.portrait-image{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.icon-button{
+  width: 25px;
+  height: 25px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+/* Top to bottom styling */
+
+.phone-style-container{
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #D4D4D4;
+  box-shadow: 0px 0px 25px gray;
+}
+
+header .layout-container{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.main-logo {
+  width: 140px;
+}
+
+.post{
+  padding: 4px 0px;
+  background-color:#fff;
+}
+
+.post-header{
+  display:flex;
+  align-items:center;
+}
+
+.user-image{
+  margin-right: 10px;
+}
+
+.user-name{
+  margin-bottom: 5px;
+}
+
+.user-location{
+  margin-top: 0px;
+}
+
+.user-location{   
+  margin-top: 0;
+}
+
+.post-image{
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.post-likes{
+  display:flex;
+  gap: 10px;
+  align-items:center;
+  margin-bottom: 12px;
+}
+
+.like-button:hover,
+.like-button:focus,
+.post-image:hover,
+.post-image:focus{
+  cursor: pointer;
+}
+
+.like-button:hover,
+.like-button:focus{
+  scale: 1.1;
+}
+
+.post-image:hover,
+.post-image:focus{
+  opacity: 0.95;
+}
+
+
+
+
