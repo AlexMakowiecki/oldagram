@@ -1,5 +1,5 @@
 # Oldagram
-## What is it? 
+## What is this? 
 It's a website that showcases popular self-portrait art as Instagram-style posts. This website originated as a project to practice Semantic HTML and the proper use of CSS properties in combination with HTML containers, learned in Module 4 of the Frontend Scrimba Course. However, I liked the project idea, so I dedicated additional time to implement functionality for likes, using Firebase to store them, and utilized the web app manifest to make it look like a mobile app on mobile devices.
 It's also the ninth project, part of the Scrimba Course, that I've uploaded to Github. In the module where this project is, they teach you CSS essential concepts.
 ## What did I use?
